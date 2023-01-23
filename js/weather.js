@@ -31,7 +31,7 @@ async function handleFormSubmit(e){
 form.addEventListener('submit', handleFormSubmit);
 
 async function getLocationinfo(cityName, countryName){
-    let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName},${countryName}&appid=dbfd17e667f4ef457e82ad9520ce04aa`)
+    let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName},${countryName}&appid=057d9a404ff94ad60135e7c15a68d47e`)
     let data = await response.json();
     return data;
 
